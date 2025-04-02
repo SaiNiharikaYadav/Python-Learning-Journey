@@ -5,6 +5,5 @@ This repository documents my journey of learning Python from the basics to advan
 
 What You’ll Find Here   
 - Daily Practice Code: Organized into folders (Day1_Code, Day2_Code, etc.)  
-- Learning Logs: Daily logs summarizing topics learned, challenges faced, and solutions  
 - Key Concepts: Python concepts I’ve covered, such as data types, variables, loops, and more  
 
