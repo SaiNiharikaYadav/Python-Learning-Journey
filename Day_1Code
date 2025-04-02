@@ -1,1 +1,115 @@
+Day 1: Introduction to Python 
+1️⃣ What is Python?
+Python is a high-level, interpreted programming language known for its simplicity, readability, and versatility. It is used in:
+✅ Web Development
+✅ Data Science & AI
+✅ Automation
+✅ Game Development
+✅ Cybersecurity
+Python is beginner-friendly and widely adopted in both academia and industry.
+
+2️⃣ Setting Up Python
+🔹 Install Python
+Downloaded Python from python.org.
+Verified installation by running:
+python --version
+🔹 Installing VS Code 
+Downloaded VS Code.
+Installed the Python extension from the VS Code marketplace.
+
+3️⃣ Writing my First Python Program
+Create a new Python file (hello.py) and write:
+print("Hello, World!")
+Run the script using:
+python hello.py
+Output:
+Hello, World!
+
+4️⃣ Python Syntax & Basics
+🔹 Indentation (No {} like C/C++)
+Python uses indentation instead of curly brackets {} to define code blocks.
+
+🔹 Comments
+Single-line comment:
+# This is a comment
+
+Multi-line comment:
+"""
+This is a multi-line comment
+written in Python.
+"""
+🔹 Printing Output
+print("Welcome to Python!")
+Multiple values can be printed using commas:
+name = "Alice"
+age = 25
+print("My name is", name, "and I am", age, "years old.")
+Output:
+My name is Alice and I am 25 years old.
+
+5️⃣ Python Data Types
+🔹 Common Data Types
+Data Type	Example	Description
+int	x = 10	Whole numbers
+float	y = 3.14	Decimal numbers
+str	name = "Python"	Text
+bool	is_valid = True	Boolean values (True/False)
+🔹 Checking Data Types
+Use type() to check variable types:
+x = 10
+y = 3.14
+name = "Python"
+print(type(x))   # Output: <class 'int'>
+print(type(y))   # Output: <class 'float'>
+print(type(name))  # Output: <class 'str'>
+🔹 Type Conversion (Casting)
+Conversion between different data types:
+a = "100"  
+b = int(a)  # Convert string to integer  
+print(b)  # Output: 100
+
+Practice questions:
+
+📝problem1.py (Print Your Name)
+# Printing my name
+print("My name is Niharika.")
+
+📝 problem2.py (Simple Calculator)
+# Taking user input
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+# Calculating sum
+sum_result = num1 + num2
+# Printing the result
+print("Sum:", sum_result)
+
+📝 problem3.py (Check Data Types)
+# Taking user input
+num = input("Enter a number: ")
+text = input("Enter a string: ")
+# Checking data types
+print("Data type of", num, "is", type(num))
+print("Data type of", text, "is", type(text))
+# Converting num to int
+num = int(num)
+print("Data type after conversion:", type(num))
+
+📝 problem4.py (Temperature Converter)
+# Taking temperature input
+celsius = float(input("Enter temperature in Celsius: "))
+# Converting to Fahrenheit
+fahrenheit = (celsius * 9/5) + 32
+# Printing the result
+print("Temperature in Fahrenheit:", fahrenheit, "°F")
+
+📝 problem5.py (Swap Two Numbers Without Using a Temporary Variable)
+# Taking input from the user
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+# Swapping numbers
+a, b = b, a
+# Printing results
+print("After swapping:")
+print("First number:", a)
+print("Second number:", b)
 
